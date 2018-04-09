@@ -1,0 +1,9 @@
+// 客户端向服务器提交认证信息
+message OP_C_AUTH_SESSION
+{
+  required string account = 1;
+
+  required string password = 2;
+
+  optional int32 otherParam = 3 [default= 0];
+}

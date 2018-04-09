@@ -1,0 +1,1 @@
+protoc.exe --plugin=protoc-gen-as3="D:\googlePB\as_plugin\protoc-gen-as3.bat" --as3_out=D:\googlePB\as_out message.proto
